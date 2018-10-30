@@ -1,0 +1,23 @@
+{
+    "name": "simonhard/php-knx",
+    "description": "A vendor that provides helper for knx",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^6.5|^7.4"
+    },
+    "authors": [
+        {
+            "name": "Simon Huebner",
+            "email": "huebner.simon@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {"Knx\\": "src/Knx"}
+    },
+    "autoload-dev": {
+        "psr-4": {"Tests\\": "tests/Knx"}
+    }
+}
